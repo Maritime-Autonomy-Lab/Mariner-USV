@@ -22,6 +22,11 @@ We do not use the provided bluerobotics radios. We have three sets of radios for
 - RFD-900 #2: This radio is for RTK corrections. 
 - Rajant 5Ghz: This radio is to ssh into the rasberry pi inside the project box and visualize any data coming back off the boat. 
 
+## Manual Control 
+We use an xbox controller for manual control, via Q ground control. Diagram below. 
+
+<img src="images/USV Controller.jpg" width="400">
+
 ## Power Distribution
 There are many devices onboard the vehicle that require different voltages of power. To deal with this we have a custom PCB that uses Pololu regulators. This will provide 5, 12, 24 and raw battery voltage. Note we use bluerobotics batteries. The Mariner power distrubtion board requires the following parts. We list their names and digikey part numbers. The PCB part file is located here: LINK HERE. 
 
